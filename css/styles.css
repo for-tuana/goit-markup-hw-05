@@ -1081,3 +1081,64 @@ header {
 .open-modal-button:hover {
   background-color: #218838;
 }
+
+.modal-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sub-email-form {
+  display: flex;
+  gap: 24px;
+}
+
+.sub-email-text {
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+[placeholder] {
+  color: #ffffff;
+}
+
+.sub-button {
+  min-width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-icon {
+  margin-left: 16px;
+}
+
+.sub-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  margin-right: auto;
+  color: white;
+}
