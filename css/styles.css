@@ -1244,7 +1244,7 @@ header {
   margin-bottom: 16px;
 }
 
-.comment-text {
+.textarea {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -1260,7 +1260,7 @@ header {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.comment-text:focus {
+.textarea:focus {
   border-color: #4d5ae5;
 }
 
