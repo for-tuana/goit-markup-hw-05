@@ -49,6 +49,46 @@
     </header>
 
     <main>
+
+        <div class="modal-window">
+            <div class="modal-container">
+                <button class="close-button">
+                    <svg width="24" height="24">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <p class="modal-title">Leave your contacts and we will call you back</p>
+                <form class="order-service-form">
+                    <button class="exit-button" type="">&times;</button>
+                    <p class="call-back-text">Leave your contacts and we will call you back</p>
+                    <div class="border">
+                        <div class="form-element">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" name="name" required>
+                        </div>
+                        <div class="form-element">
+                            <label for="phone">Phone</label>
+                            <input id="phone" type="text" name="phone" required>
+                        </div>
+                        <div class="form-element">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" name="email" required>
+                        </div>
+                        <div class="form-comment-element">
+                            <label for="comment">Comment</label>
+                            <textarea name="comment" id="comment" rows="5">Text input</textarea>
+                        </div>
+                        <div class="form-checkbox-element">
+                            <input id="accept-privacy" type="checkbox" name="accept-privacy" required>
+                            <label for="accept-privacy">I accept the terms and conditions of the <span>Privacy
+                                    Policy</span></label>
+                        </div>
+                    </div>
+                    <button class="send-button" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+
         <section class="first-section">
             <div class="first-section-container">
                 <h1 class="first-section-titles">Effective Solutions
@@ -392,45 +432,6 @@
                 </ul>
         </section>
         </div>
-
-        <div class="modal-window">
-            <div class="modal-container">
-                <button class="close-button">
-                    <svg width="24" height="24">
-                        <use href="./images/icons.svg#icon-close"></use>
-                    </svg>
-                </button>
-                <p class="modal-title">Leave your contacts and we will call you back</p>
-                <form class="order-service-form">
-                    <button class="exit-button" type="">&times;</button>
-                    <p class="call-back-text">Leave your contacts and we will call you back</p>
-                    <div class="border">
-                        <div class="form-element">
-                            <label for="name">Name</label>
-                            <input id="name" type="text" name="name" required>
-                        </div>
-                        <div class="form-element">
-                            <label for="phone">Phone</label>
-                            <input id="phone" type="text" name="phone" required>
-                        </div>
-                        <div class="form-element">
-                            <label for="email">Email</label>
-                            <input id="email" type="email" name="email" required>
-                        </div>
-                        <div class="form-comment-element">
-                            <label for="comment">Comment</label>
-                            <textarea name="comment" id="comment" rows="5">Text input</textarea>
-                        </div>
-                        <div class="form-checkbox-element">
-                            <input id="accept-privacy" type="checkbox" name="accept-privacy" required>
-                            <label for="accept-privacy">I accept the terms and conditions of the <span>Privacy
-                                    Policy</span></label>
-                        </div>
-                    </div>
-                    <button class="send-button" type="submit">Send</button>
-                </form>
-            </div>
-        </div>
     </main>
 
     <footer class="footer">
@@ -478,6 +479,8 @@
             </div>
         </div>
     </footer>
+
+
 
 </body>
 
