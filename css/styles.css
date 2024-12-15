@@ -1258,6 +1258,7 @@ header {
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .textarea:focus {
@@ -1277,7 +1278,7 @@ header {
   cursor: pointer;
 }
 
-.checkbox:checked + .privacy-text .checkbox-design {
+.visually-hidden:checked + .privacy-text .checkbox-design {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
